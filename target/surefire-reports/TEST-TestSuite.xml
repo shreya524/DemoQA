@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="54.442" tests="7" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:/Users/stars/Documents/Drivers/chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\stars\eclipse-workspace\DemoQA\target\test-classes;C:\Users\stars\eclipse-workspace\DemoQA\target\classes;C:\Users\stars\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\stars\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\stars\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\stars\.m2\repository\com\aventstack\extentreports\4.0.6\extentreports-4.0.6.jar;C:\Users\stars\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\stars\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\stars\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\stars\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\stars\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\stars\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\stars\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\stars\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\stars\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\stars\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\stars\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\stars\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\stars\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\stars\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\stars\.m2\repository\org\apache\logging\log4j\log4j-core\2.18.0\log4j-core-2.18.0.jar;C:\Users\stars\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.5\selenium-java-3.141.5.jar;C:\Users\stars\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.5\selenium-api-3.141.5.jar;C:\Users\stars\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.5\selenium-chrome-driver-3.141.5.jar;C:\Users\stars\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.5\selenium-edge-driver-3.141.5.jar;C:\Users\stars\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.5\selenium-firefox-driver-3.141.5.jar;C:\Users\stars\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.5\selenium-ie-driver-3.141.5.jar;C:\Users\stars\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.5\selenium-opera-driver-3.141.5.jar;C:\Users\stars\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.5\selenium-remote-driver-3.141.5.jar;C:\Users\stars\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.5\selenium-safari-driver-3.141.5.jar;C:\Users\stars\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.5\selenium-support-3.141.5.jar;C:\Users\stars\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\stars\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\stars\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\stars\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\stars\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\stars\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\stars\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\stars\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\stars\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\stars\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\stars\.m2\repository\org\testng\testng\6.13.1\testng-6.13.1.jar;C:\Users\stars\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\stars\AppData\Local\Temp\surefire15471905399610184193\surefirebooter-20220906151935263_3.jar C:\Users\stars\AppData\Local\Temp\surefire15471905399610184193 2022-09-06T15-19-34_651-jvmRun1 surefire-20220906151935263_1tmp surefire_0-20220906151935263_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\stars\eclipse-workspace\DemoQA\target\test-classes;C:\Users\stars\eclipse-workspace\DemoQA\target\classes;C:\Users\stars\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\stars\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\stars\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\stars\.m2\repository\com\aventstack\extentreports\4.0.6\extentreports-4.0.6.jar;C:\Users\stars\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\stars\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\stars\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\stars\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\stars\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\stars\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\stars\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\stars\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\stars\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\stars\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\stars\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\stars\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\stars\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\stars\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\stars\.m2\repository\org\apache\logging\log4j\log4j-core\2.18.0\log4j-core-2.18.0.jar;C:\Users\stars\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.5\selenium-java-3.141.5.jar;C:\Users\stars\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.5\selenium-api-3.141.5.jar;C:\Users\stars\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.5\selenium-chrome-driver-3.141.5.jar;C:\Users\stars\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.5\selenium-edge-driver-3.141.5.jar;C:\Users\stars\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.5\selenium-firefox-driver-3.141.5.jar;C:\Users\stars\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.5\selenium-ie-driver-3.141.5.jar;C:\Users\stars\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.5\selenium-opera-driver-3.141.5.jar;C:\Users\stars\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.5\selenium-remote-driver-3.141.5.jar;C:\Users\stars\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.5\selenium-safari-driver-3.141.5.jar;C:\Users\stars\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.5\selenium-support-3.141.5.jar;C:\Users\stars\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\stars\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\stars\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\stars\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\stars\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\stars\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\stars\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\stars\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\stars\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\stars\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\stars\.m2\repository\org\testng\testng\6.13.1\testng-6.13.1.jar;C:\Users\stars\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\stars"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.4.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\stars\eclipse-workspace\DemoQA"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\stars\AppData\Local\Temp\surefire15471905399610184193\surefirebooter-20220906151935263_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="user.name" value="stars"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\stars\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\stars\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="user.dir" value="C:\Users\stars\eclipse-workspace\DemoQA"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\stars\apache-maven-3.8.6/bin;C:\Program Files\Java\jdk-17.0.4.1/bin;C:\Program Files\Java\jdk-17.0.4.1/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\stars\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Users\stars\AppData\Local\Microsoft\WindowsApps;C:\Users\stars\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="element" classname="Assignment.ElementsTestCases" time="8.583">
+    <system-err><![CDATA[Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 55594
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1662457786.783][WARNING]: This version of ChromeDriver has not been tested with Chrome version 105.
+Sep 06, 2022 3:19:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="textBoxTest" classname="Assignment.ElementsTestCases" time="1.178"/>
+  <testcase name="checkBoxTest" classname="Assignment.ElementsTestCases" time="1.602"/>
+  <testcase name="radioBtnTest" classname="Assignment.ElementsTestCases" time="0.129"/>
+  <testcase name="webTableTest" classname="Assignment.ElementsTestCases" time="1.421"/>
+  <testcase name="btnTest" classname="Assignment.ElementsTestCases" time="31.455">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#dynamicClickMessage&quot;}&#10;  (Session info: headless chrome=105.0.5195.102)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;&#10;System info: host: &apos;DESKTOP-QSMRSOP&apos;, ip: &apos;192.168.1.45&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\stars\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ce00b8e801464a3ff9f041f0f5fb3fd8&#10;*** Element info: {Using=id, value=dynamicClickMessage}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#dynamicClickMessage"}
+  (Session info: headless chrome=105.0.5195.102)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'DESKTOP-QSMRSOP', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\stars\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ce00b8e801464a3ff9f041f0f5fb3fd8
+*** Element info: {Using=id, value=dynamicClickMessage}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
+	at Assignment.Elements.buttonClick(Elements.java:305)
+	at Assignment.ElementsTestCases.btnTest(ElementsTestCases.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[Failed Test case:---btnTest
+]]></system-out>
+  </testcase>
+  <testcase name="linkTest" classname="Assignment.ElementsTestCases" time="1.651">
+    <failure message="expected [Link has responded with staus 201 and status text Created] but found [Link has responded with staus 201 and status text]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Link has responded with staus 201 and status text Created] but found [Link has responded with staus 201 and status text]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at Assignment.Elements.linksPage(Elements.java:316)
+	at Assignment.ElementsTestCases.linkTest(ElementsTestCases.java:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[Failed Test case:---linkTest
+]]></system-out>
+  </testcase>
+</testsuite>

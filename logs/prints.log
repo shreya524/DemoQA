@@ -1,0 +1,6 @@
+15:40:50.776 [main] INFO  Assignment.BaseClass - Navigated to the elements page
+15:40:51.172 [main] INFO  Assignment.BaseClass - Text information displayed
+15:40:54.496 [main] INFO  Assignment.BaseClass - CheckBox is selected
+15:40:54.573 [main] INFO  Assignment.BaseClass - Radio Button is selected
+15:40:55.991 [main] INFO  Assignment.BaseClass - New coloumn added to the table
+15:40:56.608 [main] INFO  Assignment.BaseClass - Buttons are clicked

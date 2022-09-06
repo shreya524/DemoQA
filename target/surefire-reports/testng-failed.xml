@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Practice Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Assignment.Listeners"/>
+  </listeners>
+  <test name="Test Basics 1(failed)" verbose="0">
+    <classes>
+      <class name="Assignment.ElementsTestCases">
+        <methods>
+          <include name="linkTest"/>
+          <include name="btnTest"/>
+          <include name="testDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Assignment.ElementsTestCases -->
+    </classes>
+  </test> <!-- Test Basics 1(failed) -->
+</suite> <!-- Failed suite [Practice Suite] -->

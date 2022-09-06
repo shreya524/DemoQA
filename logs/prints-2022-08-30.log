@@ -1,0 +1,7 @@
+20:10:14.807 [main] INFO  Assignment.BaseClass - Navigated to the elements page
+20:10:15.105 [main] INFO  Assignment.BaseClass - Text information displayed
+20:10:16.576 [main] INFO  Assignment.BaseClass - CheckBox is selected
+20:18:40.668 [main] INFO  Assignment.BaseClass - Driver is initialized
+20:18:50.477 [main] INFO  Assignment.BaseClass - Navigated to the home page
+20:18:50.940 [main] INFO  Assignment.BaseClass - Navigated to the elements page
+20:18:51.626 [main] INFO  Assignment.BaseClass - Text information displayed

@@ -1,0 +1,7 @@
+12:03:48.277 [main] INFO  Assignment.BaseClass - Text information displayed
+12:03:51.881 [main] INFO  Assignment.BaseClass - CheckBox is selected
+12:03:52.009 [main] INFO  Assignment.BaseClass - Radio Button is selected
+12:03:53.411 [main] INFO  Assignment.BaseClass - New coloumn added to the table
+12:03:54.033 [main] INFO  Assignment.BaseClass - Buttons are clicked
+15:40:45.221 [main] INFO  Assignment.BaseClass - Driver is initialized
+15:40:50.375 [main] INFO  Assignment.BaseClass - Navigated to the home page
